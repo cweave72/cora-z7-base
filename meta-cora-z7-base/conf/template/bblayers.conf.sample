@@ -14,5 +14,5 @@ BBLAYERS ?= " \
   ##COREBASE##/../meta-openembedded/meta-networking \
   ##COREBASE##/../meta-openembedded/meta-filesystems \
   ##COREBASE##/../meta-xilinx/meta-xilinx-bsp \
-  ##COREBASE##/../meta-cora-z7-base \
+  ##COREBASE##/../cora-z7-base/meta-cora-z7-base \
   "
