@@ -10,6 +10,7 @@ SRC_URI_append = " \
     "
 
 do_install_append() {
+    install -d ${D}/mnt/sdcard/boot
     install -d ${D}/${sysconfdir}/network
     install -d ${D}/${sysconfdir}/profile.d
     install -D -m 0644 ${WORKDIR}/fstab ${D}${sysconfdir}/
